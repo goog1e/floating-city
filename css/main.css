@@ -2,7 +2,7 @@
 -------------------------------------------------- */
 @font-face {
     font-family: "Canter";
-    src: url("/font/Canter Bold Shadow.otf");
+    src: url("font/Canter Bold Shadow.otf");
     src: local("☺"),
 }
 
@@ -117,7 +117,7 @@ header a {
 }
 
 .logo {
-    background: url('/img/city.png');
+    background: url('img/city.png');
     background-position: 50% 50%;
     background-repeat: no-repeat;
     padding: 50px;
@@ -140,7 +140,7 @@ header a {
 }
 
 .social a {
-    background-image: url('/img/fb.png');
+    background-image: url('img/fb.png');
     width: 49px;
     height: 49px;
     display: block;
@@ -148,15 +148,15 @@ header a {
 }
 
 .social li:nth-child(2) a {
-    background-image: url('/img/vimeo.png');
+    background-image: url('img/vimeo.png');
 }
 
 .social li:nth-child(3) a {
-    background-image: url('/img/twitter.png');
+    background-image: url('img/twitter.png');
 }
 
 .social li:nth-child(4) a {
-    background-image: url('/img/yt.png');
+    background-image: url('img/yt.png');
 }
 
 /* articles */

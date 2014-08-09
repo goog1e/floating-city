@@ -2,6 +2,7 @@
 title: "Taketori Monogatari"
 author: Princess Kaguya
 date: 2012-02-01
+tags: live music
 template: article.html
 ---
 

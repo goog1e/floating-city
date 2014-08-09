@@ -1,13 +1,14 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "name": "The Wintersmith's blog",
-    "owner": "Someone",
-    "description": "Ramblings of an immor(t)al demigod"
+    "name": "Floating City",
+    "owner": "Ian Wollman",
+    "description": "Fish slappin around"
   },
   "plugins": [
     "./plugins/paginator.coffee",
-    "wintersmith-handlebars"
+    "wintersmith-handlebars",
+    "wintersmith-tag"
   ],
   "require": {
     "moment": "moment",
@@ -23,7 +24,7 @@
   },
   "paginator": {
     "perPage": 3,
-    "template":"index.html"
+    "template": "index.html"
   },
   "handlebars": {
     "helperDir": "helpers"

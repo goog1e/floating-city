@@ -1,9 +1,15 @@
 /* Sticky footer styles
 -------------------------------------------------- */
+@font-face {
+    font-family: "Canter";
+    src: url("/font/Canter Bold Shadow.otf");
+    src: local("☺"),
+}
 
 html,
 body {
   height: 100%;
+  background: #000;
   /* The html and body elements cannot have any padding or margin. */
 }
 
@@ -20,7 +26,15 @@ body {
 /* Set the fixed height of the footer here */
 #footer {
   height: 60px;
-  background-color: #f5f5f5;
+  margin-top: 40px;
+}
+
+#footer p {
+    display: inline;
+}
+
+#footer a {
+    display: inline;
 }
 
 
@@ -29,7 +43,7 @@ body {
 /* Not required for template or sticky footer method. */
 
 #wrap > .container {
-  padding: 60px 15px 0;
+  padding: 30px 15px 0;
 }
 .container .credit {
   margin: 20px 0;
@@ -42,4 +56,115 @@ body {
 
 code {
   font-size: 80%;
+}
+
+header {
+    background: #20daea;
+    margin: 0px auto 20px;
+    border-bottom: 3px solid #000;
+}
+
+header a, header a:hover {
+    display: inline-block;
+    text-decoration: none;
+}
+
+header h1 {
+    font-family: "Canter", Georgia, serif;
+    font-size: 130px;
+    text-transform: uppercase;
+}
+
+.nav li {
+    display: inline-block;
+    float: none;
+}
+.nav li a:after {
+    content: '//';
+    padding: 5px;
+    display: inline;
+    color: black
+}
+
+.nav li:last-child a:after {
+    content: '';
+}
+
+header {
+    text-align: center;
+}
+
+header a {
+    color: black !important;
+}
+
+.nav a {
+    color: black;
+}
+
+.nav > li >a:hover {
+    background: rgba(0, 0, 0, 0.11);;
+}
+
+.content, .friends, .social {
+    border-radius: 2px;
+    background: #fff;
+}
+
+.friends ul {
+    list-style: none;
+    padding: 5px;
+}
+
+.logo {
+    background: url('/img/city.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+/* social */
+
+.social {
+    margin-bottom: 40px;
+}
+
+.social ul {
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    display: inline-block;
+    padding: 2px 6px;
+}
+
+.social a {
+    background-image: url('/img/fb.png');
+    width: 49px;
+    height: 49px;
+    display: block;
+    background-size: 49px;
+}
+
+.social li:nth-child(2) a {
+    background-image: url('/img/vimeo.png');
+}
+
+.social li:nth-child(3) a {
+    background-image: url('/img/twitter.png');
+}
+
+.social li:nth-child(4) a {
+    background-image: url('/img/yt.png');
+}
+
+/* articles */
+
+.page-header a {
+    color: #000;
+}
+
+.pageNav {
+    margin-top: 40px;
 }

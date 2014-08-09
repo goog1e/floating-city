@@ -1,9 +1,11 @@
 {
   "dependencies": {
     "moment": "~2.3.1",
-    "underscore": "~1.4.4",
     "typogr": "~0.5.2",
-    "wintersmith-handlebars": "0.0.3"
+    "underscore": "~1.4.4",
+    "wintersmith-handlebars": "git://github.com/JacksonGariety/wintersmith-handlebars",
+    "wintersmith": "~2.1.0",
+    "wintersmith-tag": "~1.0.2"
   },
   "repository": "none"
 }
